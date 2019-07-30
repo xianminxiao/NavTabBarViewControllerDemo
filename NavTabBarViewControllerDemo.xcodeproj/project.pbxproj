@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B754A6F1E7D2B7900440268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754A6E1E7D2B7900440268 /* main.m */; };
+		8B754A721E7D2B7900440268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754A711E7D2B7900440268 /* AppDelegate.m */; };
+		8B754A751E7D2B7900440268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754A741E7D2B7900440268 /* ViewController.m */; };
+		8B754A781E7D2B7900440268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B754A761E7D2B7900440268 /* Main.storyboard */; };
+		8B754A7A1E7D2B7900440268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B754A791E7D2B7900440268 /* Assets.xcassets */; };
+		8B754A7D1E7D2B7900440268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B754A7B1E7D2B7900440268 /* LaunchScreen.storyboard */; };
+		8B754A961E7D2F0400440268 /* NavTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754A951E7D2F0400440268 /* NavTabBar.m */; };
+		8B754A9F1E7D344900440268 /* NavTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754A9E1E7D344900440268 /* NavTabBarViewController.m */; };
+		8B754AA41E7D6B1900440268 /* NavTabBarItemTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754AA31E7D6B1900440268 /* NavTabBarItemTableView.m */; };
+		8B754AA81E7D6C6800440268 /* TableDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754AA71E7D6C6800440268 /* TableDataViewController.m */; };
+		8B754AAC1E7D6DA800440268 /* NavTabBarItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754AAA1E7D6DA800440268 /* NavTabBarItemTableViewCell.m */; };
+		8B754AAD1E7D6DA800440268 /* NavTabBarItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B754AAB1E7D6DA800440268 /* NavTabBarItemTableViewCell.xib */; };
+		8B754AB11E7D711500440268 /* NavTabBarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B754AB01E7D711500440268 /* NavTabBarScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B754A6A1E7D2B7900440268 /* NavTabBarViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTabBarViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B754A6E1E7D2B7900440268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B754A701E7D2B7900440268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B754A711E7D2B7900440268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B754A731E7D2B7900440268 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B754A741E7D2B7900440268 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B754A771E7D2B7900440268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B754A791E7D2B7900440268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B754A7C1E7D2B7900440268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B754A7E1E7D2B7900440268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B754A861E7D2BC100440268 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonMacro.h; path = public/CommonMacro.h; sourceTree = "<group>"; };
+		8B754A931E7D2EDD00440268 /* NavTabBarDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavTabBarDelegate.h; path = NavTabBarViewController/NavTabBarDelegate.h; sourceTree = "<group>"; };
+		8B754A941E7D2F0400440268 /* NavTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavTabBar.h; path = NavTabBarViewController/NavTabBar.h; sourceTree = "<group>"; };
+		8B754A951E7D2F0400440268 /* NavTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavTabBar.m; path = NavTabBarViewController/NavTabBar.m; sourceTree = "<group>"; };
+		8B754A9C1E7D33FA00440268 /* NavTabBarViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavTabBarViewControllerDelegate.h; path = NavTabBarViewController/NavTabBarViewControllerDelegate.h; sourceTree = "<group>"; };
+		8B754A9D1E7D344900440268 /* NavTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavTabBarViewController.h; path = NavTabBarViewController/NavTabBarViewController.h; sourceTree = "<group>"; };
+		8B754A9E1E7D344900440268 /* NavTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavTabBarViewController.m; path = NavTabBarViewController/NavTabBarViewController.m; sourceTree = "<group>"; };
+		8B754AA21E7D6B1900440268 /* NavTabBarItemTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavTabBarItemTableView.h; path = NavTabBarItemViewController/NavTabBarItemTableView.h; sourceTree = "<group>"; };
+		8B754AA31E7D6B1900440268 /* NavTabBarItemTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavTabBarItemTableView.m; path = NavTabBarItemViewController/NavTabBarItemTableView.m; sourceTree = "<group>"; };
+		8B754AA51E7D6B5000440268 /* NavTabBarItemTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavTabBarItemTableViewDelegate.h; path = NavTabBarItemViewController/NavTabBarItemTableViewDelegate.h; sourceTree = "<group>"; };
+		8B754AA61E7D6C6800440268 /* TableDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableDataViewController.h; path = NavTabBarItemViewController/TableDataViewController.h; sourceTree = "<group>"; };
+		8B754AA71E7D6C6800440268 /* TableDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableDataViewController.m; path = NavTabBarItemViewController/TableDataViewController.m; sourceTree = "<group>"; };
+		8B754AA91E7D6DA800440268 /* NavTabBarItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavTabBarItemTableViewCell.h; path = NavTabBarItemViewController/NavTabBarItemTableViewCell.h; sourceTree = "<group>"; };
+		8B754AAA1E7D6DA800440268 /* NavTabBarItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavTabBarItemTableViewCell.m; path = NavTabBarItemViewController/NavTabBarItemTableViewCell.m; sourceTree = "<group>"; };
+		8B754AAB1E7D6DA800440268 /* NavTabBarItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavTabBarItemTableViewCell.xib; path = NavTabBarItemViewController/NavTabBarItemTableViewCell.xib; sourceTree = "<group>"; };
+		8B754AAE1E7D709E00440268 /* NavTabBarScrollViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavTabBarScrollViewDelegate.h; sourceTree = "<group>"; };
+		8B754AAF1E7D711500440268 /* NavTabBarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTabBarScrollView.h; sourceTree = "<group>"; };
+		8B754AB01E7D711500440268 /* NavTabBarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTabBarScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B754A671E7D2B7900440268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B754A611E7D2B7900440268 = {
+			isa = PBXGroup;
+			children = (
+				8B754A6C1E7D2B7900440268 /* NavTabBarViewControllerDemo */,
+				8B754A6B1E7D2B7900440268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B754A6B1E7D2B7900440268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B754A6A1E7D2B7900440268 /* NavTabBarViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B754A6C1E7D2B7900440268 /* NavTabBarViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B754A841E7D2B8900440268 /* public */,
+				8B754AA11E7D6A2300440268 /* NavTabBarItemViewController */,
+				8B754A851E7D2B8E00440268 /* NavTabBarViewController */,
+				8B754AAE1E7D709E00440268 /* NavTabBarScrollViewDelegate.h */,
+				8B754AAF1E7D711500440268 /* NavTabBarScrollView.h */,
+				8B754AB01E7D711500440268 /* NavTabBarScrollView.m */,
+				8B754A701E7D2B7900440268 /* AppDelegate.h */,
+				8B754A711E7D2B7900440268 /* AppDelegate.m */,
+				8B754A731E7D2B7900440268 /* ViewController.h */,
+				8B754A741E7D2B7900440268 /* ViewController.m */,
+				8B754A761E7D2B7900440268 /* Main.storyboard */,
+				8B754A791E7D2B7900440268 /* Assets.xcassets */,
+				8B754A7B1E7D2B7900440268 /* LaunchScreen.storyboard */,
+				8B754A7E1E7D2B7900440268 /* Info.plist */,
+				8B754A6D1E7D2B7900440268 /* Supporting Files */,
+			);
+			path = NavTabBarViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		8B754A6D1E7D2B7900440268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B754A6E1E7D2B7900440268 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B754A841E7D2B8900440268 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				8B754A861E7D2BC100440268 /* CommonMacro.h */,
+			);
+			name = public;
+			sourceTree = "<group>";
+		};
+		8B754A851E7D2B8E00440268 /* NavTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B754A931E7D2EDD00440268 /* NavTabBarDelegate.h */,
+				8B754A941E7D2F0400440268 /* NavTabBar.h */,
+				8B754A951E7D2F0400440268 /* NavTabBar.m */,
+				8B754A9C1E7D33FA00440268 /* NavTabBarViewControllerDelegate.h */,
+				8B754A9D1E7D344900440268 /* NavTabBarViewController.h */,
+				8B754A9E1E7D344900440268 /* NavTabBarViewController.m */,
+			);
+			name = NavTabBarViewController;
+			sourceTree = "<group>";
+		};
+		8B754AA11E7D6A2300440268 /* NavTabBarItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B754AA51E7D6B5000440268 /* NavTabBarItemTableViewDelegate.h */,
+				8B754AA91E7D6DA800440268 /* NavTabBarItemTableViewCell.h */,
+				8B754AAA1E7D6DA800440268 /* NavTabBarItemTableViewCell.m */,
+				8B754AAB1E7D6DA800440268 /* NavTabBarItemTableViewCell.xib */,
+				8B754AA21E7D6B1900440268 /* NavTabBarItemTableView.h */,
+				8B754AA31E7D6B1900440268 /* NavTabBarItemTableView.m */,
+				8B754AA61E7D6C6800440268 /* TableDataViewController.h */,
+				8B754AA71E7D6C6800440268 /* TableDataViewController.m */,
+			);
+			name = NavTabBarItemViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B754A691E7D2B7900440268 /* NavTabBarViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B754A811E7D2B7900440268 /* Build configuration list for PBXNativeTarget "NavTabBarViewControllerDemo" */;
+			buildPhases = (
+				8B754A661E7D2B7900440268 /* Sources */,
+				8B754A671E7D2B7900440268 /* Frameworks */,
+				8B754A681E7D2B7900440268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavTabBarViewControllerDemo;
+			productName = NavTabBarViewControllerDemo;
+			productReference = 8B754A6A1E7D2B7900440268 /* NavTabBarViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B754A621E7D2B7900440268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tencent;
+				TargetAttributes = {
+					8B754A691E7D2B7900440268 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NFGW7B48XS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B754A651E7D2B7900440268 /* Build configuration list for PBXProject "NavTabBarViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B754A611E7D2B7900440268;
+			productRefGroup = 8B754A6B1E7D2B7900440268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B754A691E7D2B7900440268 /* NavTabBarViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B754A681E7D2B7900440268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B754A7D1E7D2B7900440268 /* LaunchScreen.storyboard in Resources */,
+				8B754A7A1E7D2B7900440268 /* Assets.xcassets in Resources */,
+				8B754AAD1E7D6DA800440268 /* NavTabBarItemTableViewCell.xib in Resources */,
+				8B754A781E7D2B7900440268 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B754A661E7D2B7900440268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B754A751E7D2B7900440268 /* ViewController.m in Sources */,
+				8B754A721E7D2B7900440268 /* AppDelegate.m in Sources */,
+				8B754AAC1E7D6DA800440268 /* NavTabBarItemTableViewCell.m in Sources */,
+				8B754AA41E7D6B1900440268 /* NavTabBarItemTableView.m in Sources */,
+				8B754A6F1E7D2B7900440268 /* main.m in Sources */,
+				8B754A9F1E7D344900440268 /* NavTabBarViewController.m in Sources */,
+				8B754AB11E7D711500440268 /* NavTabBarScrollView.m in Sources */,
+				8B754AA81E7D6C6800440268 /* TableDataViewController.m in Sources */,
+				8B754A961E7D2F0400440268 /* NavTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B754A761E7D2B7900440268 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B754A771E7D2B7900440268 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B754A7B1E7D2B7900440268 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B754A7C1E7D2B7900440268 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B754A7F1E7D2B7900440268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B754A801E7D2B7900440268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B754A821E7D2B7900440268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NFGW7B48XS;
+				INFOPLIST_FILE = NavTabBarViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.NavTabBarViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B754A831E7D2B7900440268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NFGW7B48XS;
+				INFOPLIST_FILE = NavTabBarViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.NavTabBarViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B754A651E7D2B7900440268 /* Build configuration list for PBXProject "NavTabBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B754A7F1E7D2B7900440268 /* Debug */,
+				8B754A801E7D2B7900440268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B754A811E7D2B7900440268 /* Build configuration list for PBXNativeTarget "NavTabBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B754A821E7D2B7900440268 /* Debug */,
+				8B754A831E7D2B7900440268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B754A621E7D2B7900440268 /* Project object */;
+}
